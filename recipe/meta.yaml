@@ -10,8 +10,8 @@ package:
 source:
   fn: digest_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/digest_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/digest/digest_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/digest_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/digest/digest_{{ version }}.tar.gz
   sha256: 46cfd60b20fdd018ab10b7fb33edb01b93b9691474d863979996b8bd0ea04faf
 
 
